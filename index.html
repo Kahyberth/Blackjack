@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" href="/assets/backgraound/poker-682332_1920.jpg">
+</head>
+<body>
+    
+    <header class="title">Blackjack</header>
+    <hr>
+    
+    <!-- BackGround -->
+    <!-- <img class="bg-image" src="/assets/backgraound/poker-682332_1920.jpg"> -->
+
+    <!-- Buttons -->
+    <div class="row mt-2">
+        <div class="col text-center">
+            <div id ="buttonDiv" class="textEffect">
+                <button id='btn-newGame' class="btn btn-danger">New Game</button>
+                <button id='btn-request' class="btn btn-primary" disabled ='disabled'>Request</button>
+                <button id='btn-stop'    class="btn btn-primary" disabled = 'disabled'>Stop</button>
+                <button id='btn-bet'     class="btn btn-secondary">Bet</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <!--  Player -->
+    <div class="row container">
+        <div class="col">
+            <h1 class="playerTitle"> PLAYER 🎮-> <small>0</small> </h1>
+            <div class="credits">
+                <h3 class="credits">CREDITS💸 = <span id="credit">5000</span> </h3>
+            </div>
+            <div id="player-card" class="divCards">
+                <!-- <img class="cards" src="assets/cartas/6H.png"> -->
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <!-- Block of cards -->
+    <div class="row container mt-2">
+        <div class="col">
+            <h1 class="computerTitle"> COMPUTER 🖥-> <small>0</small> </h1>
+            <div id="card-computer" class="divCards">
+                <!-- <img class="cards" src="assets/cartas/2H.png"> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/underscore-min.js"></script>
+    <script src="/assets/js/game-min.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+html, body {
+    margin: 0px;
+    color: white;
+    background-color: #7FB77E;
+}
+
+.bg-image {
+    position: fixed;
+    top: 190px;
+    left: 0px;
+    filter: blur(5px);
+
+}
+
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.textEffect {
+    padding: 10px;
+    align-items: center;
+}
+.playerTitle {
+    color:navy
+}
+
+.computerTitle {
+    color: red;
+}
+
+.cards {
+    position: relative;
+    width: 150px;
+    margin-left: -75px;
+    left: 100px;
+}
+
+#computer-card, #player-card {
+    height: 180px;
+}
+
+.credits {
+    top: 0px;
+    left: 0px;
+    color: black;
+}
